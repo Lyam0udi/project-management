@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.pma.pma.dao.EmployeeRepository;
 import com.pma.pma.entities.Employee;
@@ -43,4 +44,23 @@ public class EmployeeController {
 		return "redirect:/employees/new";
 		
 	}
+	
+	@GetMapping("/delete")
+	public String deleteEmployee(@RequestParam("id") Long id) {
+		empRepo.deleteById(id);
+		return "redirect:/employees";
+	}
+	
+	@GetMapping("/update")
+    public String displayUpdateForm(@RequestParam("id") Long id, Model model) {
+        Employee employee = empRepo.findById(id).orElse(null);
+        model.addAttribute("employee", employee);
+        return "employees/update-employee";
+    }
+
+    @PostMapping("/update")
+    public String updateEmployee(Employee employee, Model model) {
+        empRepo.save(employee);
+        return "redirect:/employees";
+    }
 }
