@@ -52,5 +52,10 @@ public class HomeController {
 		return "main/home";
 	}
 	
+    @GetMapping("/protechvitrine")
+    public String showProTechVitrinePage() {
+        return "main/protechvitrine";
+    }
+	
 
 }

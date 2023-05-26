@@ -1,0 +1,72 @@
+/* Custom styles for ProTechVitrine page */
+
+/* Set background color and text color for the body */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Apply a container to center the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the headings */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* Style the paragraphs and lists */
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Style the contact information section */
+h2:contains("Contact Information") + ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the FAQs section */
+h2:contains("FAQs") + dl {
+  margin-bottom: 40px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+/* Style the resources and documentation section */
+h2:contains("Resources and Documentation") + p {
+  margin-bottom: 40px;
+}
+
+/* Style the social proof and awards section */
+h2:contains("Social Proof and Awards") + p {
+  margin-bottom: 40px;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
