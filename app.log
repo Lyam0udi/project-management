@@ -1490,3 +1490,373 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "user_accounts" do
 2023-06-02 12:08:43.246  INFO 9336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2023-06-02 12:09:03.420  INFO 9336 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2023-06-02 12:09:03.421  INFO 9336 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:10:08.227  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 9336 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:10:08.236 DEBUG 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:10:08.236  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:10:08.670  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:10:08.686  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 3 repository interfaces.
+2023-06-02 12:10:08.777  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7cafc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:10:08.780  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8dfcfcfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:10:08.857  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:10:08.888  INFO 9336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 647 ms
+2023-06-02 12:10:09.195  INFO 9336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:10:09.408  INFO 9336 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@784528ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@70f9be7b, org.springframework.security.web.header.HeaderWriterFilter@6ab67d2d, org.springframework.security.web.authentication.logout.LogoutFilter@7c859d91, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e35d145, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@41b2f9ba, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@532b5dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24ccc459, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d4a9af8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a5465e6, org.springframework.security.web.session.SessionManagementFilter@946b043, org.springframework.security.web.access.ExceptionTranslationFilter@1248c538, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64536954]
+2023-06-02 12:10:09.450  INFO 9336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:10:09.458  WARN 9336 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:10:09.605  INFO 9336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:10:09.633  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:10:09.633  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 1.487 seconds (JVM running for 492.967)
+2023-06-02 12:10:09.636  INFO 9336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:18:10.250  INFO 9336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-02 12:18:10.256  INFO 9336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-02 12:18:52.758  INFO 9336 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:18:52.758  INFO 9336 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:18:52.849  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 9336 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:18:52.849 DEBUG 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:18:52.849  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:18:53.094  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:18:53.107  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 3 repository interfaces.
+2023-06-02 12:18:53.162  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7cafc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:18:53.164  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8dfcfcfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:18:53.226  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:18:53.241  INFO 9336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 390 ms
+2023-06-02 12:18:53.463  WARN 9336 --- [restartedMain] o.h.b.i.SessionFactoryOptionsBuilder     : Unrecognized hbm2ddl_auto value : Update.  Supported values include 'create', 'create-drop', 'update', 'none' and 'validate'.  Ignoring
+2023-06-02 12:18:53.490  WARN 9336 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : Update
+2023-06-02 12:18:53.510  INFO 9336 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-02 12:18:53.511 ERROR 9336 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : Update
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at com.pma.pma.ProjectManagementApplication.main(ProjectManagementApplication.java:20) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : Update
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Unrecognized legacy `hibernate.hbm2ddl.auto` value : Update
+	at org.hibernate.tool.schema.Action.interpretHbm2ddlSetting(Action.java:181) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator$ActionGrouping.interpret(SchemaManagementToolCoordinator.java:489) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:52) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 25 common frames omitted
+
+2023-06-02 12:19:07.502  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 9336 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:19:07.503 DEBUG 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:19:07.503  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:19:07.719  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:19:07.732  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 3 repository interfaces.
+2023-06-02 12:19:07.775  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7cafc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:19:07.776  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8dfcfcfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:19:07.818  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:19:07.833  INFO 9336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 329 ms
+2023-06-02 12:19:08.277  INFO 9336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:19:08.294  INFO 9336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:19:08.492  INFO 9336 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72a938f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@75e0235d, org.springframework.security.web.header.HeaderWriterFilter@3ca638cd, org.springframework.security.web.authentication.logout.LogoutFilter@992505d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78889eef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d9c7e78, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3e71c657, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@118e7c4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c635ee1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60fba0a, org.springframework.security.web.session.SessionManagementFilter@5af77d28, org.springframework.security.web.access.ExceptionTranslationFilter@4f9573e7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@622b4dae]
+2023-06-02 12:19:08.526  INFO 9336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:19:08.531  WARN 9336 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:19:08.628  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:19:08.629  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 1.16 seconds (JVM running for 1031.962)
+2023-06-02 12:19:08.632  INFO 9336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:19:20.519  INFO 9336 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:19:20.520  INFO 9336 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:19:20.603  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 9336 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:19:20.603 DEBUG 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:19:20.603  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:19:20.812  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:19:20.826  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 3 repository interfaces.
+2023-06-02 12:19:20.869  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7cafc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:19:20.869  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8dfcfcfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:19:20.911  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:19:20.925  INFO 9336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 321 ms
+2023-06-02 12:19:21.186  INFO 9336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:19:21.200  INFO 9336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:19:21.340  INFO 9336 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@126bc7d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@12eaa81a, org.springframework.security.web.header.HeaderWriterFilter@433a1665, org.springframework.security.web.authentication.logout.LogoutFilter@232fa626, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cd56369, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64c268dc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6987fdd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31c74405, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22ddf566, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@786c92a8, org.springframework.security.web.session.SessionManagementFilter@4985831, org.springframework.security.web.access.ExceptionTranslationFilter@7c8bf0a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7df07f51]
+2023-06-02 12:19:21.378  INFO 9336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:19:21.384  WARN 9336 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:19:21.516  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:19:21.517  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 0.93 seconds (JVM running for 1044.851)
+2023-06-02 12:19:21.522  INFO 9336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:19:28.771  INFO 9336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-02 12:19:28.778  INFO 9336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-02 12:20:00.878  WARN 9336 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2023-06-02 12:20:00.878 ERROR 9336 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "project_pkey"
+  Detail: Key (project_id)=(-46) already exists.
+2023-06-02 12:20:00.881 ERROR 9336 --- [http-nio-8080-exec-2] o.h.i.ExceptionMapperStandardImpl        : HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2023-06-02 12:20:00.894 ERROR 9336 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [project_pkey]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "project_pkey"
+  Detail: Key (project_id)=(-46) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3174) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3688) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1453) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:510) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3282) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2478) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104) ~[hibernate-core-5.3.9.Final.jar:5.3.9.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532) ~[spring-orm-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) ~[spring-tx-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:138) ~[spring-data-jpa-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61) ~[spring-data-commons-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at jdk.proxy12/jdk.proxy12.$Proxy189.save(Unknown Source) ~[na:na]
+	at com.pma.pma.services.ProjectService.save(ProjectService.java:21) ~[classes/:na]
+	at com.pma.pma.controllers.ProjectController.createProject(ProjectController.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:52) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:206) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-06-02 12:20:00.898  WARN 9336 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2023-06-02 12:25:47.730  INFO 9336 --- [Thread-49] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:25:47.733  INFO 9336 --- [Thread-49] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:25:47.827  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 9336 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:25:47.827 DEBUG 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:25:47.827  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:25:48.063  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:25:48.075  INFO 9336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 3 repository interfaces.
+2023-06-02 12:25:48.149  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7cafc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:25:48.150  INFO 9336 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8dfcfcfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:25:48.203  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:25:48.216  INFO 9336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 387 ms
+2023-06-02 12:25:48.557  INFO 9336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:25:48.576  INFO 9336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:25:48.774  INFO 9336 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@102824a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c07df49, org.springframework.security.web.header.HeaderWriterFilter@2dff818a, org.springframework.security.web.authentication.logout.LogoutFilter@21cb6a66, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f69b51d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@39410ca, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@53b48129, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@354675a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64e44151, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5199ab2, org.springframework.security.web.session.SessionManagementFilter@4a85b25d, org.springframework.security.web.access.ExceptionTranslationFilter@16501ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@286fc297]
+2023-06-02 12:25:48.805  INFO 9336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:25:48.811  WARN 9336 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:25:48.928  INFO 9336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:25:48.928  INFO 9336 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 1.119 seconds (JVM running for 1432.263)
+2023-06-02 12:25:48.932  INFO 9336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:25:53.679  INFO 9336 --- [RMI TCP Connection(47)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-02 12:25:53.681  INFO 9336 --- [RMI TCP Connection(47)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:25:53.681  INFO 9336 --- [RMI TCP Connection(47)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:25:56.428  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 15012 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:25:56.429 DEBUG 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:25:56.430  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:25:56.464  INFO 15012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-02 12:25:56.464  INFO 15012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-02 12:25:57.108  INFO 15012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:25:57.169  INFO 15012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 3 repository interfaces.
+2023-06-02 12:25:57.526  INFO 15012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3df50562] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:25:57.543  INFO 15012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bd755294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:25:57.971  INFO 15012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:25:58.111  INFO 15012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1646 ms
+2023-06-02 12:26:00.333  INFO 15012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:26:00.387  INFO 15012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:26:01.254  INFO 15012 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@82ed3f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1142a718, org.springframework.security.web.header.HeaderWriterFilter@7a083aa5, org.springframework.security.web.authentication.logout.LogoutFilter@550f963e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@25d5cf47, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@8f7fe81, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3244c732, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2174d1c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cc83995, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e714e3a, org.springframework.security.web.session.SessionManagementFilter@47690c19, org.springframework.security.web.access.ExceptionTranslationFilter@674e27a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d85d17f]
+2023-06-02 12:26:01.388  INFO 15012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:26:01.430  WARN 15012 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:26:01.826  INFO 15012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:26:01.830  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 5.692 seconds (JVM running for 6.339)
+2023-06-02 12:26:01.883  INFO 15012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-02 12:26:01.896  INFO 15012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2023-06-02 12:26:13.508  INFO 15012 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:26:13.514  INFO 15012 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:26:13.678  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 15012 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:26:13.678 DEBUG 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:26:13.678  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:26:14.083  INFO 15012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:26:14.107  INFO 15012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 3 repository interfaces.
+2023-06-02 12:26:14.193  INFO 15012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3df50562] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:26:14.193  INFO 15012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bd755294] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:26:14.283  INFO 15012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:26:14.308  INFO 15012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 630 ms
+2023-06-02 12:26:14.715  INFO 15012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:26:14.733  INFO 15012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:26:14.948  INFO 15012 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d7212c, org.springframework.security.web.context.SecurityContextPersistenceFilter@10f27f3b, org.springframework.security.web.header.HeaderWriterFilter@13868690, org.springframework.security.web.authentication.logout.LogoutFilter@100f9f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7abebb91, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2085524, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@338357b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c892f11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b9c9616, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7083d848, org.springframework.security.web.session.SessionManagementFilter@54e3b7c6, org.springframework.security.web.access.ExceptionTranslationFilter@3ee84df1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cd1f247]
+2023-06-02 12:26:14.996  INFO 15012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:26:15.004  WARN 15012 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:26:15.152  INFO 15012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:26:15.153  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 1.515 seconds (JVM running for 19.662)
+2023-06-02 12:26:15.159  INFO 15012 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:26:15.253  INFO 15012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-02 12:26:15.263  INFO 15012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2023-06-02 12:49:12.981  INFO 15012 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:49:12.987  INFO 15012 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:49:13.429  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 15012 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:49:13.429 DEBUG 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:49:13.430  INFO 15012 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:49:16.285  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 3748 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:49:16.288 DEBUG 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:49:16.290  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:49:16.355  INFO 3748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-02 12:49:16.355  INFO 3748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-02 12:49:17.599  INFO 3748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:49:17.706  INFO 3748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 3 repository interfaces.
+2023-06-02 12:49:18.492  INFO 3748 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5078486] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:49:18.531  INFO 3748 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8487d1b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:49:19.371  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:49:19.631  INFO 3748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3276 ms
+2023-06-02 12:49:23.671  INFO 3748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:49:23.839  INFO 3748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:49:25.421  INFO 3748 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4891d15e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e2f032c, org.springframework.security.web.header.HeaderWriterFilter@2167b557, org.springframework.security.web.authentication.logout.LogoutFilter@3ae16c37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a45ff39, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5fbd014b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5b981db1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c8a9230, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b3e49b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55e2f79c, org.springframework.security.web.session.SessionManagementFilter@5e2e5433, org.springframework.security.web.access.ExceptionTranslationFilter@115449e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44e6c51]
+2023-06-02 12:49:25.706  INFO 3748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:49:25.797  WARN 3748 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:49:26.567  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:49:26.573  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 10.859 seconds (JVM running for 12.055)
+2023-06-02 12:49:35.418  INFO 3748 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:49:35.424  INFO 3748 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:49:35.704  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Starting ProjectManagementApplication on PC with PID 3748 (C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management\target\classes started by Local_x0k5cal in C:\Users\Local_x0k5cal\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\project-management)
+2023-06-02 12:49:35.704 DEBUG 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2023-06-02 12:49:35.704  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : No active profile set, falling back to default profiles: default
+2023-06-02 12:49:36.279  INFO 3748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-06-02 12:49:36.306  INFO 3748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 3 repository interfaces.
+2023-06-02 12:49:36.411  INFO 3748 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5078486] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:49:36.412  INFO 3748 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8487d1b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-02 12:49:36.490  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-02 12:49:36.517  INFO 3748 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 810 ms
+2023-06-02 12:49:37.514  INFO 3748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-02 12:49:37.558  INFO 3748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-02 12:49:37.965  INFO 3748 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@328c1795, org.springframework.security.web.context.SecurityContextPersistenceFilter@11cd9b68, org.springframework.security.web.header.HeaderWriterFilter@72f7c9a7, org.springframework.security.web.authentication.logout.LogoutFilter@fe51a83, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a1a4d58, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@728ec961, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4cf34a96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35c5ca89, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79338767, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ed492f2, org.springframework.security.web.session.SessionManagementFilter@6d4ccf57, org.springframework.security.web.access.ExceptionTranslationFilter@2e1147a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e15840e]
+2023-06-02 12:49:38.023  INFO 3748 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-02 12:49:38.033  WARN 3748 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-02 12:49:38.392  INFO 3748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-02 12:49:38.394  INFO 3748 --- [restartedMain] c.pma.pma.ProjectManagementApplication   : Started ProjectManagementApplication in 2.732 seconds (JVM running for 23.877)
+2023-06-02 12:49:38.408  INFO 3748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-02 12:49:38.502  INFO 3748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-02 12:49:38.549  INFO 3748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
