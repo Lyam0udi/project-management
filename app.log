@@ -1860,3 +1860,5 @@ org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique co
 2023-06-02 12:49:38.408  INFO 3748 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2023-06-02 12:49:38.502  INFO 3748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-06-02 12:49:38.549  INFO 3748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2023-06-02 13:07:14.079  INFO 3748 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-02 13:07:14.086  INFO 3748 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
