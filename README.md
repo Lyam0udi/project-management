@@ -7,5 +7,4 @@ The Spring Boot project aims to develop a web application that allows users to p
 
 # Configuration
 
-Configuration for application.propperties is needed.... 
-
+To run the project the configuration for application.propperties is needed.
